@@ -4,7 +4,7 @@ public class Runner {
 
 	public static void main(String[] args) {
 		
-		Stack nums=new Stack();
+		DynamicStack nums=new DynamicStack();
 		//System.out.println("Empty =  "+nums.isEmpty());
 		nums.push(15);
 		nums.show();
@@ -22,19 +22,33 @@ public class Runner {
 		nums.push(300);
 		nums.show();
 		
+		nums.pop();
+		nums.show();
+		nums.pop();
+		nums.show();
+		nums.pop();
+		nums.show();
+		nums.pop();
+		nums.show();
+		nums.pop();
+		nums.show();
+		nums.pop();
+		nums.show();
+		nums.pop();
+		nums.show();
 		//System.out.println("The size of stack is: "+nums.size());
 		
 		//System.out.println("Empty =  "+nums.isEmpty());
 		
-		System.out.println(nums.pop());
-		System.out.println(nums.pop());
-		System.out.println(nums.pop());
-		System.out.println(nums.pop());
-		System.out.println(nums.pop());
-		System.out.println(nums.pop());
+//		System.out.println(nums.pop());
+//		System.out.println(nums.pop());
+//		System.out.println(nums.pop());
+//		System.out.println(nums.pop());
+//		System.out.println(nums.pop());
+//		System.out.println(nums.pop());
 		
 		
-		nums.show();
+		//nums.show();
 		
 		
 
